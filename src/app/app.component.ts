@@ -13,7 +13,7 @@ export class AppComponent implements OnInit {
   ngOnInit() {
     this.payPalConfig = {
       currency: "EUR",
-      clientId: "Ac9-UbBL0TcehRW-l4qSP1MCHvYkpMDaPSWNEWF9wk0OzsRAH-lGRO768k7TwRWgV0txWPyNstdA4fY-",
+      clientId: "AYvU7p49APJ3TWCP7EPq6Z1Sm7LijDirPdDI-G6DjNasJ2tyIVCwb0IZL1v5cKy_tw7qPr_2ybS62gCR",
       createOrder: (data:any) =>
         <ICreateOrderRequest>{
           intent: "CAPTURE",
